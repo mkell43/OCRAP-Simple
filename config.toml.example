@@ -1,0 +1,16 @@
+dest_subreddit="OCRAPTesting"
+sleep=1800 # In seconds: 30 minutes
+
+[[ accounts ]]
+name = "account1"
+client_id = "client_id_string"
+client_secret = "client_id_secret"
+password = "account1_password"
+
+# Uncomment and replace the values if using multiple accounts.
+# Repeat this block to add more than 2.
+#[[ accounts ]]
+#name = "account2"
+#client_id = "account2_client_id_string"
+#client_secret = "account2_client_id_secret"
+#password = "account2_password"
